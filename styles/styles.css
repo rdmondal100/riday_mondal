@@ -879,25 +879,6 @@ section {
     background-color: var(--color-primary);
     transition: transform 0.3s ease;
   }
-  .controlls .hoverShow {
-    font-size: 0.7rem !important;
-    position: absolute;
-    /* font-weight: 500 !important; */
-    border-radius: 5px;
-    transition: none !important;
-    padding: 2px;
-    margin: 0.5rem -0.65rem;
-    color: var(--color-white) !important;
-  }
-  .controlls :hover .hoverShow {
-    display: block;
-    font-size: 0.7rem;
-    color: var(--color-secondary) !important;
-    background-color: transparent !important;
-    font-family: "Poppins", sans-serif;
-    transform: none;
-    transition: none;
-  }
   .controlls .active-btn {
     transition: none !important;
     background-color: transparent !important;
@@ -908,12 +889,31 @@ section {
   .controlls .active-btn i {
     color: var(--color-secondary) !important;
   }
+  .controlls .active-btn .hoverShow {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--color-secondary) !important;
+    background-color: transparent !important;
+    font-family: "Poppins", sans-serif;
+    transform: none;
+    transition: none;
+  }
   .controlls .control {
     background-color: transparent;
     box-shadow: none;
     margin: 1rem 0.3rem;
   }
   .controlls .control i {
+    color: var(--color-white);
+  }
+  .controlls .control .hoverShow {
+    font-size: 0.7rem !important;
+    position: absolute;
+    /* font-weight: 500 !important; */
+    border-radius: 5px;
+    transition: none !important;
+    padding: 2px;
+    margin: 0.5rem -0.65rem;
     color: var(--color-white);
   }
   .controlls :hover .control {
