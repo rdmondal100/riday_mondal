@@ -1,0 +1,6 @@
+.git/
+.vscode/
+styles/styles.scss
+styles/style.css.map
+styles/style.css.map
+-media.scss
